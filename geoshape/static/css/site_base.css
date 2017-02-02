@@ -11,24 +11,24 @@ body {
   height: 30px;
 }
 .a{
-  color: #52D017
+  color: #26d500; //green
 }
 .btn {
-    color: #52D017
+    color: #26d500; //green
 }
 .btn-primary {
-    color: #cccccc;
-    background-color: #52D017;
-    border-color: #52D017;
+    color: #545454; //grey
+    background-color: #26d500; //green
+    border-color: #26d500; //green
 }
 .btn-default{
-    color: #52D017;
+    color: #26d500; //green
 }
 .footer {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #545454; //grey
   height: 100px;
   padding: 23px;
-  background: #eee;
+  background: #545454; //grey
   margin-top: 10px;
 }
 #wrap {
@@ -47,7 +47,7 @@ nav.filter h4 a.toggle {
 .jumbotron {
   height: 300px;
   padding: 40px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #545454; //grey
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
   background: url('../img/fire_background.png') no-repeat left bottom;
   background-size: cover;
@@ -61,7 +61,7 @@ nav.filter h4 a.toggle {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #545454;
+  color: #26d500; //green
   white-space: nowrap;
 }
 .dropdown-menu form {
@@ -107,19 +107,19 @@ span[id^="error_"].help-inline {
 html {
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-    color: #52D017;
+    color: #26d500; //green
 }
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    color: #52D017;
+    color: #26d500; //green
 }
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: #cccccc;
+    color: #545454; //grey
 }
 
 html {
@@ -130,29 +130,34 @@ Pseudo ::before element
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: #cccccc;
+    color: #545454; //grey
 }
 Pseudo ::after element
 :before, :after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: #cccccc;
+    color: #545454; //grey
 }
 
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
     margin-left: -1px;
-    color: #52D017;
+    color: #26d500; //green
 }
 .input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    color: #52D017;
+    color: #26d500; //green
 }
 
 .data-toggle{
-     color: #cccccc;
-    background-color: #52D017;
-    border-color: #52D017;
+     color: dimgrey;
+    background-color: #26d500; //green
+    border-color: #26d500; //green
 }
 
+.map-title-text ellipsis ng-binding{
+     color: dimgrey;
+    background-color: #26d500; //green
+    border-color: #26d500; //green
+}
