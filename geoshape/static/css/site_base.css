@@ -13,6 +13,11 @@ body {
 .a{
   color: #26d500; //green
 }
+.btn-group{
+    color: #26d500; //green
+     background-color: #545454; //grey
+    border-color: #545454; //grey
+}
 .btn {
        color: #545454; //grey
     background-color: #26d500; //green
@@ -104,42 +109,6 @@ input[value='Invite User'] {
 }
 span[id^="error_"].help-inline {
   color: #d9534f;
-}
-
-html {
-    font-size: 62.5%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    color: #26d500; //green
-}
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    color: #26d500; //green
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    color: #545454; //grey
-}
-
-html {
-    display: block;
-}
-Pseudo ::before element
-:before, :after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    color: #545454; //grey
-}
-Pseudo ::after element
-:before, :after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    color: #545454; //grey
 }
 
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
